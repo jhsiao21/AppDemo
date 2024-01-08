@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="85" height="68" viewBox="0 0 85 68">
+    <defs>
+        <linearGradient id="gzvgkquu8e" x1="26.863%" x2="26.863%" y1="50%" y2="93.507%">
+            <stop offset="0%" stop-color="#FFF"/>
+            <stop offset="100%" stop-color="#FFF" stop-opacity="0"/>
+        </linearGradient>
+        <filter id="qht5jmbjlc" width="175.2%" height="175.2%" x="-37.6%" y="-18.8%" filterUnits="objectBoundingBox">
+            <feOffset dy="12" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="6"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+        </filter>
+        <circle id="6khefys3vd" cx="38.3" cy="38.3" r="31.917"/>
+        <path id="d548pm65ja" d="M16.604 11c1.069 0 2.102-.423 2.844-1.194C25.269 3.761 33.446 0 42.5 0c9.055 0 17.232 3.761 23.053 9.806.742.771 1.775 1.194 2.844 1.194H85v54H0V11h16.604z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g>
+                    <g transform="translate(-145 -637) translate(0 637) translate(145) translate(0 3)">
+                        <mask id="aicrkjsvhb" fill="#fff">
+                            <use xlink:href="#d548pm65ja"/>
+                        </mask>
+                        <path stroke="#EFEFEF" d="M42.5-.5c9.196 0 17.501 3.82 23.413 9.96.648.673 1.551 1.04 2.484 1.04H85.5v55h-86v-55h17.104c.933 0 1.836-.367 2.484-1.04C25 3.32 33.305-.5 42.5-.5z"/>
+                        <g mask="url(#aicrkjsvhb)">
+                            <g>
+                                <g transform="matrix(1 0 0 -1 4.2 70)">
+                                    <use fill="#000" filter="url(#qht5jmbjlc)" xlink:href="#6khefys3vd"/>
+                                    <use fill="#FFF" xlink:href="#6khefys3vd"/>
+                                </g>
+                                <path fill="url(#gzvgkquu8e)" d="M76.6 38.3C76.6 17.147 59.453 0 38.3 0S0 17.147 0 38.3v38.322h76.6V38.3z" transform="matrix(1 0 0 -1 4.2 70)"/>
+                            </g>
+                        </g>
+                    </g>
+                    <g>
+                        <g fill="#F5F5F5" transform="translate(-145 -637) translate(0 637) translate(145) translate(17.5 10.5)">
+                            <circle cx="25" cy="25" r="25"/>
+                        </g>
+                        <g stroke="#999" stroke-width="2" transform="translate(-145 -637) translate(0 637) translate(145) translate(17.5 10.5) translate(7.2 14.5)">
+                            <circle cx="27.343" cy="8.571" r="8.143"/>
+                            <circle cx="27.343" cy="8.571" r="3.714"/>
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M4.481 7.143l-.226-1.357C4.025 4.418 3.208 3.843 1.8 4.062.403 4.3-.18 5.102.05 6.47L2.11 18.772c.22 1.354 1.03 1.923 2.431 1.706 1.397-.238 1.986-1.034 1.766-2.389l-.607-3.637c-.254-1.522.053-3.084.863-4.397l.005-.009c.357-.587 3.584-5.854 3.904-6.398.522-.886 1.118-1.174 1.817-1.286 1.153-.184 2.275.475 2.447 1.735.122.725-.292 1.534-.77 2.22-.34.49-1.802 2.689-2.609 3.906-.305.46-.204 1.078.233 1.416 1.16.901 3.27 2.535 3.754 2.894.677.5 1.333 1.137 1.454 1.863.249 1.247-.599 2.222-1.752 2.405-.699.113-1.357.026-2.142-.653-.282-.243-2.043-1.713-3.557-2.977"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
