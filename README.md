@@ -40,8 +40,3 @@
 
 ![](images/invite_interaction.mov)
 
-
-<<<<<<< HEAD
-![](images/invite_interaction.mov)
-=======
->>>>>>> 00035d90142f341475dad816106445899cf99586
