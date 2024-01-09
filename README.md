@@ -1,7 +1,13 @@
 # KOKO Demo
 
 ## 說明
-* 此為[國泰iOS面試考題](https://app.zeplin.io/project/5c498614493bf5bf68258c5a/screen/5d776380061b64a13531f133)，在底下標籤列點選"朋友"會看到以下畫面：
+* 此為[國泰iOS面試考題](https://app.zeplin.io/project/5c498614493bf5bf68258c5a/screen/5d776380061b64a13531f133)，demo實作好友頁面
+
+
+
+## 操作說明
+* 將程式Clone下來後直接開啟Cathaybk_iOS_interview.xcodeproj，直接案Run或Cmd⌘+R執行
+* 在底下標籤列點選"朋友"會看到以下畫面：
 
 ![](images/FriendVC-portrait.png)
 
@@ -39,4 +45,3 @@
 * 邀請列表，可以點選打勾或打叉來回應邀請，選擇後"邀請中"狀態會消失
 
 ![](images/invite_interaction.mov)
-

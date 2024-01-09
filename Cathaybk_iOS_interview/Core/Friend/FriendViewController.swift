@@ -21,8 +21,7 @@ class FriendViewController: UIViewController {
     var searchResults: [FriendElement] = []
     var refreshControl = UIRefreshControl()
     var inviteContainerHeightConstraint: NSLayoutConstraint?
-    var searchView : UIView?
-    
+
     private let tableView: UITableView = {
         let table = UITableView(frame: .zero, style: .grouped)
         table.register(FriendTableViewCell.self, forCellReuseIdentifier: FriendTableViewCell.identifier)
@@ -80,9 +79,6 @@ class FriendViewController: UIViewController {
         separatorView = UIView(frame: CGRect(x: 0, y: 0, width: view.bounds.width, height: 0.5))
         separatorView?.translatesAutoresizingMaskIntoConstraints = false
         separatorView?.backgroundColor = UIColor.systemGray3
-        
-        searchView = UIView(frame: CGRect(x: 0, y: 0, width: view.bounds.width, height: 36))
-        searchView?.translatesAutoresizingMaskIntoConstraints = false
         
         addFriendButton = UIButton()
         addFriendButton.setImage(UIImage(named: "icBtnAddFriends")?.withRenderingMode(.alwaysOriginal), for: .normal)

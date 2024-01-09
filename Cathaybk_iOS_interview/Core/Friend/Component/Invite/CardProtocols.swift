@@ -2,7 +2,8 @@
 //  CardProtocols.swift
 //  Cathaybk_iOS_interview
 //
-//  Created by LoganMacMini on 2024/1/4.
+//  Original from: https://github.com/RVetas/CardContainer
+//  Revised by LoganMacMini on 2024/1/4.
 //
 
 import UIKit
@@ -41,21 +42,12 @@ protocol CardContainerDelegate: AnyObject {
     */
     func cardContainer(willDisplay view: InviteCardView, at index: Int)
     
-    /**
-     **innerIndex** is index in visible card stack. This method is called when the view is about to appear in the bottom of the card stack.
-     ## Important Note ##
-     innderIndex is index in visible card stack, not DataSource' index
-    */
     func cardContainer(willDisplay view: InviteCardView, with innerIndex: Int)
     
     /**
      Tells the delegate that the specified view is selected
     */
     func cardContainer(didSelect view: InviteCardView, at index: Int)
-    
-//    func cardContainer(didExpand view: InviteCardView)
-//    
-//    func cardContainer(didShrink view: InviteCardView)
 }
 
 //將實作method寫在protocol extension，繼承的子類可以不需要實作method

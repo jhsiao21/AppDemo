@@ -2,7 +2,8 @@
 //  CardContainer.swift
 //  Cathaybk_iOS_interview
 //
-//  Created by LoganMacMini on 2024/1/4.
+//  Original from: https://github.com/RVetas/CardContainer
+//  Revised by LoganMacMini on 2024/1/4.
 //
 
 import UIKit
