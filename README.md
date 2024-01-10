@@ -45,3 +45,11 @@
 * 邀請列表，可以點選打勾或打叉來回應邀請，選擇後"邀請中"狀態會消失
 
 ![](images/invite_interaction.mov)
+
+## 其他
+* 測試環境：
+    - [x] Xcode 14.0.1
+    - [x] Xcode 15.0.1
+* 開發工具：
+    * Xcode 15.0.1
+    * Postman
