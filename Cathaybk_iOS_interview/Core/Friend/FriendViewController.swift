@@ -244,7 +244,9 @@ class FriendViewController: UIViewController {
     }
     
     func fetchUserData() async {
-        APIService.shared.fetchUserData { result in
+        APIService.shared.fetchUserData { [weak self] result in
+            guard let self = self else { return }
+            
             switch result {
             case .success(let data):
                 self.profileView.configure(userData: data)
@@ -267,7 +269,9 @@ class FriendViewController: UIViewController {
         case .無好友畫⾯:
             request(with: Constants.Friend4)
         case .只有好友列表:
-            fetchAndMergeFriendData { result in
+            fetchAndMergeFriendData { [weak self] result in
+                guard let self = self else { return }
+                
                 switch result {
                 case .success(let data):
                     self.viewModel.friends = data
@@ -275,7 +279,6 @@ class FriendViewController: UIViewController {
                     DispatchQueue.main.async {
                         self.tableView.reloadData()//friends資料用於更新tableView
                         self.inviteContainer.reloadData()//更新inviteContainer內容
-                        
                         self.view.layoutIfNeeded()
                     }
                 case .failure(let error):
@@ -325,9 +328,8 @@ class FriendViewController: UIViewController {
         var mergedResults: [String: FriendElement] = [:]
                 
         group.enter()
-        APIService.shared.fetchFriendData(with: Constants.Friend1) { [weak self] result in
+        APIService.shared.fetchFriendData(with: Constants.Friend1) { result in
             defer { group.leave() }
-            guard let self = self else { return }
             switch result {
             case .success(let data):
                 firstRequestResults = data
@@ -340,8 +342,7 @@ class FriendViewController: UIViewController {
         }
         
         group.enter()
-        APIService.shared.fetchFriendData(with: Constants.Friend2) { [weak self] result in
-            guard let self = self else { return }
+        APIService.shared.fetchFriendData(with: Constants.Friend2) { result in
             defer { group.leave() }
             switch result {
             case .success(let data):

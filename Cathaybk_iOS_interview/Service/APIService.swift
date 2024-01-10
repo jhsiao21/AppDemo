@@ -21,7 +21,8 @@ class APIService {
             return
         }
         
-        let task = URLSession.shared.dataTask(with: url) { data, _, error in
+        let task = URLSession.shared.dataTask(with: url) {  [weak self] data, _, error in
+            guard let self = self else { return }
             guard let data = data, error == nil else {
                 completion(.failure(error ?? APIError.unknownError))
                 return
@@ -45,7 +46,9 @@ class APIService {
             return
         }
         
-        let task = URLSession.shared.dataTask(with: url) { data, _, error in
+        let task = URLSession.shared.dataTask(with: url) { [weak self] data, _, error in
+            guard let self = self else { return }
+            
             guard let data = data, error == nil else {
                 completion(.failure(error ?? APIError.unknownError))
                 return
