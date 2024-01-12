@@ -1,13 +1,7 @@
 # KOKO Demo
 
 ## 說明
-* 此為[國泰iOS面試考題](https://app.zeplin.io/project/5c498614493bf5bf68258c5a/screen/5d776380061b64a13531f133)，demo實作好友頁面
-
-
-
-## 操作說明
-* 將程式Clone下來後直接開啟Cathaybk_iOS_interview.xcodeproj，直接案Run或Cmd⌘+R執行
-* 在底下標籤列點選"朋友"會看到以下畫面：
+* 實作好友頁面，底下標籤列點選"朋友"會看到以下畫面：
 
 ![](images/FriendVC-portrait.png)
 
