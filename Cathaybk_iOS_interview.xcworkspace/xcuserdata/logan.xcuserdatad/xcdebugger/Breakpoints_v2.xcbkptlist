@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "26346494-E9BC-4E82-9444-00844F6F8E63"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "17603728-68F8-4827-B58E-373548C1169F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Cathaybk_iOS_interview/Core/Friend/FriendViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "310"
+            endingLineNumber = "310"
+            landmarkName = "request(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2A3C15FD-2822-406C-A0C0-1878E6660E54"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Cathaybk_iOS_interview/Core/Friend/FriendViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "420"
+            endingLineNumber = "420"
+            landmarkName = "numberOfSections(in:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2A3C15FD-2822-406C-A0C0-1878E6660E54 - 13ed566c849598a4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Cathaybk_iOS_interview.FriendViewController.card(_: Cathaybk_iOS_interview.InviteCardView, at: Swift.Int) -&gt; ()"
+                  moduleName = "Cathaybk_iOS_interview"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/logan/Documents/iOS%20App/UIKit/Cathaybk_iOS_interview_project/Cathaybk_iOS_interview/Cathaybk_iOS_interview/Core/Friend/FriendViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "422"
+                  endingLineNumber = "422"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "2A3C15FD-2822-406C-A0C0-1878E6660E54 - 13ed566c849598e2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Cathaybk_iOS_interview.FriendViewController.card(_: Cathaybk_iOS_interview.InviteCardView, at: Swift.Int) -&gt; ()"
+                  moduleName = "Cathaybk_iOS_interview"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/logan/Documents/iOS%20App/UIKit/Cathaybk_iOS_interview_project/Cathaybk_iOS_interview/Cathaybk_iOS_interview/Core/Friend/FriendViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "420"
+                  endingLineNumber = "420"
+                  offsetFromSymbolStart = "224">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

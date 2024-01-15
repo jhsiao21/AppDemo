@@ -1,0 +1,6 @@
+framework module Pods_Cathaybk_iOS_interview_Cathaybk_iOS_interviewUITests {
+  umbrella header "Pods-Cathaybk_iOS_interview-Cathaybk_iOS_interviewUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
