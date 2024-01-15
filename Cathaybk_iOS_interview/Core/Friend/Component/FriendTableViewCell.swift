@@ -125,8 +125,8 @@ extension FriendTableViewCell {
             starImageView.widthAnchor.constraint(equalToConstant: 14),
             starImageView.heightAnchor.constraint(equalToConstant: 14),
             
-//            profileImage.widthAnchor.constraint(equalToConstant: 40),
-//            profileImage.heightAnchor.constraint(equalToConstant: 40),
+            profileImage.widthAnchor.constraint(equalToConstant: profileImage.size.dimension),
+            profileImage.heightAnchor.constraint(equalToConstant: profileImage.size.dimension),
             
             hStackView.topAnchor.constraint(equalTo: contentView.topAnchor),
             hStackView.leadingAnchor.constraint(equalTo: contentView.leadingAnchor),

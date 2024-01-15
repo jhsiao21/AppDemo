@@ -24,8 +24,7 @@ class InviteCardView: UIView {
         return stackView
     }()
     
-//    private let thumbnailImageView = CircularProfileImageView(frame: CGRect(x: 0, y: 0, width: 40, height: 40))
-    let thumbnailImageView = CircularProfileImageView(size: .small)
+    let profileImage = CircularProfileImageView(size: .small)
     
     private let vStackView: UIStackView = {
         let stackView = UIStackView()
@@ -153,7 +152,7 @@ extension InviteCardView {
     }
     
     private func layout() {
-        hStackView.addArrangedSubview(thumbnailImageView)
+        hStackView.addArrangedSubview(profileImage)
         hStackView.addArrangedSubview(vStackView)
         vStackView.addArrangedSubview(nameLabel)
         vStackView.addArrangedSubview(msgLabel)
@@ -167,7 +166,10 @@ extension InviteCardView {
             hStackView.topAnchor.constraint(equalTo: topAnchor),
             hStackView.bottomAnchor.constraint(equalTo: bottomAnchor),
             hStackView.leadingAnchor.constraint(equalTo: leadingAnchor),
-            hStackView.trailingAnchor.constraint(equalTo: trailingAnchor)
+            hStackView.trailingAnchor.constraint(equalTo: trailingAnchor),
+            
+            profileImage.widthAnchor.constraint(equalToConstant: profileImage.size.dimension),
+            profileImage.heightAnchor.constraint(equalToConstant: profileImage.size.dimension),
         ])
     }
     

@@ -16,6 +16,8 @@ class CircularProfileImageView: UIView {
         let imageView = UIImageView()
         imageView.contentMode = .scaleAspectFill
         imageView.clipsToBounds = true
+        imageView.translatesAutoresizingMaskIntoConstraints = false
+        
         return imageView
     }()
     
@@ -30,7 +32,7 @@ class CircularProfileImageView: UIView {
     
     override init(frame: CGRect) {
         self.name = ""
-        self.size = .xLarge
+        self.size = .large
         super.init(frame: frame)
     }
     
@@ -39,7 +41,8 @@ class CircularProfileImageView: UIView {
     }
     
     private func style() {
-        imageView.frame = CGRect(x: 0, y: 0, width: size.dimension, height: size.dimension)
+        
+        imageView.frame = bounds
         imageView.layer.cornerRadius = size.dimension / 2
     }
     
@@ -47,11 +50,18 @@ class CircularProfileImageView: UIView {
         addSubview(imageView)
         
         NSLayoutConstraint.activate([
-            imageView.leadingAnchor.constraint(equalTo: leadingAnchor),
-            imageView.topAnchor.constraint(equalTo: topAnchor),
-            imageView.trailingAnchor.constraint(equalTo: trailingAnchor),
-            imageView.bottomAnchor.constraint(equalTo: bottomAnchor),
+//            imageView.leadingAnchor.constraint(equalTo: leadingAnchor),
+//            imageView.topAnchor.constraint(equalTo: topAnchor),
+//            imageView.trailingAnchor.constraint(equalTo: trailingAnchor),
+//            imageView.bottomAnchor.constraint(equalTo: bottomAnchor),
+            imageView.centerXAnchor.constraint(equalTo: centerXAnchor),
+            imageView.centerYAnchor.constraint(equalTo: centerYAnchor),
+            
+            imageView.widthAnchor.constraint(equalToConstant: self.size.dimension),
+            imageView.heightAnchor.constraint(equalToConstant: self.size.dimension)
         ])
+        
+        
     }
     
     public func updateImage(name: String) {
@@ -62,8 +72,8 @@ class CircularProfileImageView: UIView {
             // 如果無圖示，使用預設圖
             imageView.image = UIImage(named: "imgFriendsFemaleDefault")?.withRenderingMode(.alwaysOriginal)
         }
-        
-        layoutIfNeeded()
+        setNeedsLayout()
+//        layoutIfNeeded()
     }
 }
 

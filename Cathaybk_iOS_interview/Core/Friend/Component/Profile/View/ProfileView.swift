@@ -9,17 +9,14 @@ import UIKit
 
 class ProfileView : UIView {
 
-//    private var profileImage = CircularProfileImageView(frame: CGRect(x: 0, y: 0, width: 52, height: 54))
-    private var profileImage = CircularProfileImageView(size: .xLarge)
+    private var profileImage = CircularProfileImageView(size: .large)
     
     private let hStackView: UIStackView = {
         let stackView = UIStackView()
         stackView.axis = .horizontal
-//        stackView.spacing = 30
         stackView.distribution = .fill
         stackView.translatesAutoresizingMaskIntoConstraints = false
         stackView.alignment = .bottom
-//        stackView.directionalLayoutMargins = NSDirectionalEdgeInsets(top: 5, leading: 0, bottom: 16, trailing: -16)
         
         return stackView
     }()
@@ -83,14 +80,20 @@ class ProfileView : UIView {
             hStackView.leadingAnchor.constraint(equalTo: leadingAnchor),
             hStackView.trailingAnchor.constraint(equalTo: trailingAnchor),
             hStackView.bottomAnchor.constraint(equalTo: bottomAnchor),
+            
+            profileImage.widthAnchor.constraint(equalToConstant: profileImage.size.dimension),
+            profileImage.heightAnchor.constraint(equalToConstant: profileImage.size.dimension),
         ])
     }
      
-    public func configure(userData: User) {
+    func configure(userData: UserElement?) {
+        
+        guard let user = userData else { return }
+        
         DispatchQueue.main.async { [self] in
-            nameLabel.text = userData.response.first?.name
-            kokoidLabel.text = "KOKO ID：\(userData.response.first!.kokoid) >"
-            profileImage.updateImage(name: nameLabel.text!)
+            nameLabel.text = user.name
+            kokoidLabel.text = "KOKO ID：\(String(describing: user.kokoid)) >"
+            profileImage.updateImage(name: user.kokoid)
         }
     }
     

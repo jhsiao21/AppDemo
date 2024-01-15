@@ -10,17 +10,23 @@ import UIKit
 class SettingViewController: UIViewController  {
  
     let titleLabel = UILabel()
+//    var closureStorage : UIViewPropertyAnimator?
             
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        view.addSubview(titleLabel)
         
         style()
         layout()
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+
+    }
+
     private func style() {
+        view.backgroundColor = .gray
+        
         titleLabel.text = "SettingViewController"
         titleLabel.font = .boldSystemFont(ofSize: 30)
         titleLabel.textColor = .brownGrey
@@ -28,6 +34,8 @@ class SettingViewController: UIViewController  {
     }
     
     private func layout() {
+        view.addSubview(titleLabel)
+        
         NSLayoutConstraint.activate([
             titleLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             titleLabel.centerYAnchor.constraint(equalTo: view.centerYAnchor)

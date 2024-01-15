@@ -40,6 +40,9 @@
 		02D400232B33E40700BA571C /* CircularProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D400222B33E40700BA571C /* CircularProfileImageView.swift */; };
 		02D400282B34185800BA571C /* PinkRectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D400272B34185800BA571C /* PinkRectangleView.swift */; };
 		02D400332B345ECC00BA571C /* FriendTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D400322B345ECC00BA571C /* FriendTableViewModel.swift */; };
+		3E822E589F61516BCC3124ED /* Pods_Cathaybk_iOS_interview.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC8A13CBC0F07B42B1165BF1 /* Pods_Cathaybk_iOS_interview.framework */; };
+		7DB5D50A48EBC87975EFAC50 /* Pods_Cathaybk_iOS_interviewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1763037321F34E323BBC8E02 /* Pods_Cathaybk_iOS_interviewTests.framework */; };
+		87CDF61B0E8B3A771E70CA91 /* Pods_Cathaybk_iOS_interview_Cathaybk_iOS_interviewUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3667AA4B3C77B03079ABA8C0 /* Pods_Cathaybk_iOS_interview_Cathaybk_iOS_interviewUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +100,15 @@
 		02D400222B33E40700BA571C /* CircularProfileImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProfileImageView.swift; sourceTree = "<group>"; };
 		02D400272B34185800BA571C /* PinkRectangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinkRectangleView.swift; sourceTree = "<group>"; };
 		02D400322B345ECC00BA571C /* FriendTableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendTableViewModel.swift; sourceTree = "<group>"; };
+		1763037321F34E323BBC8E02 /* Pods_Cathaybk_iOS_interviewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cathaybk_iOS_interviewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3667AA4B3C77B03079ABA8C0 /* Pods_Cathaybk_iOS_interview_Cathaybk_iOS_interviewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cathaybk_iOS_interview_Cathaybk_iOS_interviewUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C0AE9BA8B939A13D11518F6 /* Pods-Cathaybk_iOS_interview-Cathaybk_iOS_interviewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cathaybk_iOS_interview-Cathaybk_iOS_interviewUITests.release.xcconfig"; path = "Target Support Files/Pods-Cathaybk_iOS_interview-Cathaybk_iOS_interviewUITests/Pods-Cathaybk_iOS_interview-Cathaybk_iOS_interviewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		777E4AADC18F79FD50091351 /* Pods-Cathaybk_iOS_interviewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cathaybk_iOS_interviewTests.release.xcconfig"; path = "Target Support Files/Pods-Cathaybk_iOS_interviewTests/Pods-Cathaybk_iOS_interviewTests.release.xcconfig"; sourceTree = "<group>"; };
+		9C13C5C6FA3BA323F730D88C /* Pods-Cathaybk_iOS_interviewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cathaybk_iOS_interviewTests.debug.xcconfig"; path = "Target Support Files/Pods-Cathaybk_iOS_interviewTests/Pods-Cathaybk_iOS_interviewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A0CB29C3CE005320B3C29C3A /* Pods-Cathaybk_iOS_interview.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cathaybk_iOS_interview.debug.xcconfig"; path = "Target Support Files/Pods-Cathaybk_iOS_interview/Pods-Cathaybk_iOS_interview.debug.xcconfig"; sourceTree = "<group>"; };
+		B6248E3C27919883160696B1 /* Pods-Cathaybk_iOS_interview-Cathaybk_iOS_interviewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cathaybk_iOS_interview-Cathaybk_iOS_interviewUITests.debug.xcconfig"; path = "Target Support Files/Pods-Cathaybk_iOS_interview-Cathaybk_iOS_interviewUITests/Pods-Cathaybk_iOS_interview-Cathaybk_iOS_interviewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CC8A13CBC0F07B42B1165BF1 /* Pods_Cathaybk_iOS_interview.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cathaybk_iOS_interview.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFDAF9A1EFA55682F3ED9906 /* Pods-Cathaybk_iOS_interview.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cathaybk_iOS_interview.release.xcconfig"; path = "Target Support Files/Pods-Cathaybk_iOS_interview/Pods-Cathaybk_iOS_interview.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E822E589F61516BCC3124ED /* Pods_Cathaybk_iOS_interview.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DB5D50A48EBC87975EFAC50 /* Pods_Cathaybk_iOS_interviewTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,6 +132,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87CDF61B0E8B3A771E70CA91 /* Pods_Cathaybk_iOS_interview_Cathaybk_iOS_interviewUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,6 +188,8 @@
 				02C779232B32ECB5001B8CB4 /* Cathaybk_iOS_interviewTests */,
 				02C7792D2B32ECB5001B8CB4 /* Cathaybk_iOS_interviewUITests */,
 				02C7790B2B32ECB1001B8CB4 /* Products */,
+				9F1CD1E17BEA20654C066738 /* Pods */,
+				8526B409AF88CD37F60F8552 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -303,6 +320,29 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		8526B409AF88CD37F60F8552 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC8A13CBC0F07B42B1165BF1 /* Pods_Cathaybk_iOS_interview.framework */,
+				3667AA4B3C77B03079ABA8C0 /* Pods_Cathaybk_iOS_interview_Cathaybk_iOS_interviewUITests.framework */,
+				1763037321F34E323BBC8E02 /* Pods_Cathaybk_iOS_interviewTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F1CD1E17BEA20654C066738 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A0CB29C3CE005320B3C29C3A /* Pods-Cathaybk_iOS_interview.debug.xcconfig */,
+				EFDAF9A1EFA55682F3ED9906 /* Pods-Cathaybk_iOS_interview.release.xcconfig */,
+				B6248E3C27919883160696B1 /* Pods-Cathaybk_iOS_interview-Cathaybk_iOS_interviewUITests.debug.xcconfig */,
+				4C0AE9BA8B939A13D11518F6 /* Pods-Cathaybk_iOS_interview-Cathaybk_iOS_interviewUITests.release.xcconfig */,
+				9C13C5C6FA3BA323F730D88C /* Pods-Cathaybk_iOS_interviewTests.debug.xcconfig */,
+				777E4AADC18F79FD50091351 /* Pods-Cathaybk_iOS_interviewTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -310,9 +350,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 02C779342B32ECB5001B8CB4 /* Build configuration list for PBXNativeTarget "Cathaybk_iOS_interview" */;
 			buildPhases = (
+				B4DD855BB7218FAED69E6CC3 /* [CP] Check Pods Manifest.lock */,
 				02C779062B32ECB1001B8CB4 /* Sources */,
 				02C779072B32ECB1001B8CB4 /* Frameworks */,
 				02C779082B32ECB1001B8CB4 /* Resources */,
+				471D2CF88F56AEA7A3CEA721 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -327,6 +369,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 02C779372B32ECB5001B8CB4 /* Build configuration list for PBXNativeTarget "Cathaybk_iOS_interviewTests" */;
 			buildPhases = (
+				CE830EA0D7E8B55EFA82529F /* [CP] Check Pods Manifest.lock */,
 				02C7791C2B32ECB5001B8CB4 /* Sources */,
 				02C7791D2B32ECB5001B8CB4 /* Frameworks */,
 				02C7791E2B32ECB5001B8CB4 /* Resources */,
@@ -345,9 +388,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 02C7793A2B32ECB5001B8CB4 /* Build configuration list for PBXNativeTarget "Cathaybk_iOS_interviewUITests" */;
 			buildPhases = (
+				CB1642932EF94FBE555F8AD4 /* [CP] Check Pods Manifest.lock */,
 				02C779262B32ECB5001B8CB4 /* Sources */,
 				02C779272B32ECB5001B8CB4 /* Frameworks */,
 				02C779282B32ECB5001B8CB4 /* Resources */,
+				9553847940E3274014B3ADAD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -391,8 +436,6 @@
 				Base,
 			);
 			mainGroup = 02C779012B32ECB1001B8CB4;
-			packageReferences = (
-			);
 			productRefGroup = 02C7790B2B32ECB1001B8CB4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -429,6 +472,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		471D2CF88F56AEA7A3CEA721 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cathaybk_iOS_interview/Pods-Cathaybk_iOS_interview-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cathaybk_iOS_interview/Pods-Cathaybk_iOS_interview-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cathaybk_iOS_interview/Pods-Cathaybk_iOS_interview-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9553847940E3274014B3ADAD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cathaybk_iOS_interview-Cathaybk_iOS_interviewUITests/Pods-Cathaybk_iOS_interview-Cathaybk_iOS_interviewUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cathaybk_iOS_interview-Cathaybk_iOS_interviewUITests/Pods-Cathaybk_iOS_interview-Cathaybk_iOS_interviewUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cathaybk_iOS_interview-Cathaybk_iOS_interviewUITests/Pods-Cathaybk_iOS_interview-Cathaybk_iOS_interviewUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4DD855BB7218FAED69E6CC3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cathaybk_iOS_interview-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB1642932EF94FBE555F8AD4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cathaybk_iOS_interview-Cathaybk_iOS_interviewUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE830EA0D7E8B55EFA82529F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cathaybk_iOS_interviewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		02C779062B32ECB1001B8CB4 /* Sources */ = {
@@ -631,12 +777,14 @@
 		};
 		02C779352B32ECB5001B8CB4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0CB29C3CE005320B3C29C3A /* Pods-Cathaybk_iOS_interview.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = S4URMM3RJV;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Cathaybk_iOS_interview/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -659,12 +807,14 @@
 		};
 		02C779362B32ECB5001B8CB4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFDAF9A1EFA55682F3ED9906 /* Pods-Cathaybk_iOS_interview.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = S4URMM3RJV;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Cathaybk_iOS_interview/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -687,6 +837,7 @@
 		};
 		02C779382B32ECB5001B8CB4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C13C5C6FA3BA323F730D88C /* Pods-Cathaybk_iOS_interviewTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -707,6 +858,7 @@
 		};
 		02C779392B32ECB5001B8CB4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 777E4AADC18F79FD50091351 /* Pods-Cathaybk_iOS_interviewTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -727,6 +879,7 @@
 		};
 		02C7793B2B32ECB5001B8CB4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6248E3C27919883160696B1 /* Pods-Cathaybk_iOS_interview-Cathaybk_iOS_interviewUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -745,6 +898,7 @@
 		};
 		02C7793C2B32ECB5001B8CB4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C0AE9BA8B939A13D11518F6 /* Pods-Cathaybk_iOS_interview-Cathaybk_iOS_interviewUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
