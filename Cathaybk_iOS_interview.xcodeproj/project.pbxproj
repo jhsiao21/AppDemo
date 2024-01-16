@@ -20,6 +20,7 @@
 		02A370382B4409660057FB6A /* EmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A370372B4409660057FB6A /* EmptyView.swift */; };
 		02A800642B4062A000CAA2B4 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A800632B4062A000CAA2B4 /* UIColor+Ext.swift */; };
 		02A800672B4065BD00CAA2B4 /* SelectedFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A800662B4065BD00CAA2B4 /* SelectedFilterView.swift */; };
+		02AFB6122B5654420016FF0A /* FriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AFB6112B5654420016FF0A /* FriendViewController.swift */; };
 		02C7790E2B32ECB1001B8CB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C7790D2B32ECB1001B8CB4 /* AppDelegate.swift */; };
 		02C779102B32ECB1001B8CB4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C7790F2B32ECB1001B8CB4 /* SceneDelegate.swift */; };
 		02C779172B32ECB4001B8CB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02C779162B32ECB4001B8CB4 /* Assets.xcassets */; };
@@ -29,7 +30,6 @@
 		02C779312B32ECB5001B8CB4 /* Cathaybk_iOS_interviewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C779302B32ECB5001B8CB4 /* Cathaybk_iOS_interviewUITestsLaunchTests.swift */; };
 		02C779412B32F488001B8CB4 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C779402B32F488001B8CB4 /* MainTabBarViewController.swift */; };
 		02C779472B32F510001B8CB4 /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C779462B32F510001B8CB4 /* ProductsViewController.swift */; };
-		02C779492B32F532001B8CB4 /* FriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C779482B32F532001B8CB4 /* FriendViewController.swift */; };
 		02C7794B2B32F564001B8CB4 /* ManageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C7794A2B32F564001B8CB4 /* ManageViewController.swift */; };
 		02C7794D2B32F570001B8CB4 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C7794C2B32F570001B8CB4 /* SettingViewController.swift */; };
 		02C779522B3326E2001B8CB4 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C779512B3326E2001B8CB4 /* ProfileView.swift */; };
@@ -76,6 +76,7 @@
 		02A370372B4409660057FB6A /* EmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyView.swift; sourceTree = "<group>"; };
 		02A800632B4062A000CAA2B4 /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
 		02A800662B4065BD00CAA2B4 /* SelectedFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedFilterView.swift; sourceTree = "<group>"; };
+		02AFB6112B5654420016FF0A /* FriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendViewController.swift; sourceTree = "<group>"; };
 		02C7790A2B32ECB1001B8CB4 /* Cathaybk_iOS_interview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cathaybk_iOS_interview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02C7790D2B32ECB1001B8CB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02C7790F2B32ECB1001B8CB4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -89,7 +90,6 @@
 		02C779302B32ECB5001B8CB4 /* Cathaybk_iOS_interviewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cathaybk_iOS_interviewUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		02C779402B32F488001B8CB4 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		02C779462B32F510001B8CB4 /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
-		02C779482B32F532001B8CB4 /* FriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendViewController.swift; sourceTree = "<group>"; };
 		02C7794A2B32F564001B8CB4 /* ManageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageViewController.swift; sourceTree = "<group>"; };
 		02C7794C2B32F570001B8CB4 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		02C779512B3326E2001B8CB4 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
@@ -305,7 +305,7 @@
 		02D400292B341D1800BA571C /* Friend */ = {
 			isa = PBXGroup;
 			children = (
-				02C779482B32F532001B8CB4 /* FriendViewController.swift */,
+				02AFB6112B5654420016FF0A /* FriendViewController.swift */,
 				02A800652B40646A00CAA2B4 /* Component */,
 				02D400312B345EB700BA571C /* ViewModel */,
 			);
@@ -587,7 +587,6 @@
 				02C7795C2B332D6D001B8CB4 /* User.swift in Sources */,
 				02A370382B4409660057FB6A /* EmptyView.swift in Sources */,
 				02C7795E2B333103001B8CB4 /* Friends.swift in Sources */,
-				02C779492B32F532001B8CB4 /* FriendViewController.swift in Sources */,
 				02D400232B33E40700BA571C /* CircularProfileImageView.swift in Sources */,
 				02A2D5032B46D43B003E4902 /* InviteContainer.swift in Sources */,
 				02C779412B32F488001B8CB4 /* MainTabBarViewController.swift in Sources */,
@@ -604,6 +603,7 @@
 				02C779522B3326E2001B8CB4 /* ProfileView.swift in Sources */,
 				02C779562B332C85001B8CB4 /* ProfileViewModel.swift in Sources */,
 				02C7794B2B32F564001B8CB4 /* ManageViewController.swift in Sources */,
+				02AFB6122B5654420016FF0A /* FriendViewController.swift in Sources */,
 				02C779472B32F510001B8CB4 /* ProductsViewController.swift in Sources */,
 				02A370302B4144B90057FB6A /* FriendTableViewCell.swift in Sources */,
 				02C779592B332CF7001B8CB4 /* APIService.swift in Sources */,

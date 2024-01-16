@@ -19,6 +19,7 @@ class MainTabBarViewController: CustomTabBarViewController {
         let HomeVC = UINavigationController(rootViewController: KOViewController())
         let ManageVC = UINavigationController(rootViewController: ManageViewController())
         let SettingVC = UINavigationController(rootViewController: SettingViewController())
+//        let SettingVC = UINavigationController(rootViewController: FriendViewController2(for: .好友列表含邀請))
                 
         ProductsVC.tabBarItem.image = UIImage(named: "icTabbarProductsOff")?.withRenderingMode(.automatic)
         FriendVC.tabBarItem.image = UIImage(named: "icTabbarFriendsOn")?.withRenderingMode(.automatic)
@@ -32,5 +33,7 @@ class MainTabBarViewController: CustomTabBarViewController {
         tabBar.backgroundImage = UIImage(named: "imgTabbarBg")?.withRenderingMode(.alwaysOriginal)
         tabBar.shadowImage = UIImage()
         setViewControllers([ProductsVC, FriendVC, HomeVC, ManageVC, SettingVC], animated: true)
+        
+        
     }
 }

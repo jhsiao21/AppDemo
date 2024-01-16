@@ -25,8 +25,7 @@ class SettingViewController: UIViewController  {
     }
 
     private func style() {
-        view.backgroundColor = .gray
-        
+//        view.backgroundColor = .gray        
         titleLabel.text = "SettingViewController"
         titleLabel.font = .boldSystemFont(ofSize: 30)
         titleLabel.textColor = .brownGrey

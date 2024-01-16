@@ -14,15 +14,15 @@ class FriendTableViewModel {
     //Output for display
     //    var friendElements = [FriendElement]()
     var friendElements: BehaviorRelay<[FriendElement]> = BehaviorRelay(value: [])
-//    var friendElements: BehaviorSubject<[FriendElement]> = BehaviorSubject(value: [])
+    //    var friendElements: BehaviorSubject<[FriendElement]> = BehaviorSubject(value: [])
     
     var userElement : BehaviorRelay<[UserElement]> = BehaviorRelay(value: [])
-        
+    
     //Input
     var userData: [UserElement]? {
         didSet {
             guard let ud = userData else { return }
-                                    
+            
             userElement.accept(ud)
         }
     }
@@ -54,14 +54,13 @@ class FriendTableViewModel {
             switch result {
             case .success(let data):
                 self.userData = data.response
-                
             case .failure(let error):
                 print("Failed to fetch user data: \(error.localizedDescription)")
             }
         }
     }
     
-    func fetchFriendData(scenario scene:Scenario) {        
+    func fetchFriendData(scenario scene:Scenario) {
         switch scene {
         case .無好友畫⾯:
             request(with: Constants.Friend4)
@@ -173,14 +172,14 @@ class FriendTableViewModel {
             completion(.success(friends))
         }
     }
-
+    
     func searchFriends(query: String) -> Observable<[FriendElement]> {
-            return friendElements
-                .map { friends in
-                    friends.filter { friend in
-                        // 这里的匹配逻辑取决于你的需求，比如你可能会检查朋友的名字是否包含搜索查询。
-                        friend.name.contains(query)
-                    }
+        return friendElements
+            .map { friends in
+                friends.filter { friend in
+                    // 搜尋比對條件：名字
+                    friend.name.contains(query)
                 }
-        }
+            }
+    }
 }
