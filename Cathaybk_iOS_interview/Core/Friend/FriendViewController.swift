@@ -168,8 +168,8 @@ class FriendViewController: UIViewController {
         
         profileView.translatesAutoresizingMaskIntoConstraints = false
         
-//        inviteContainer.translatesAutoresizingMaskIntoConstraints = false
-//        inviteContainer.delegate = self
+        inviteContainer.translatesAutoresizingMaskIntoConstraints = false
+        inviteContainer.delegate = self
         
         selectFilterView.translatesAutoresizingMaskIntoConstraints = false
         
@@ -218,25 +218,25 @@ class FriendViewController: UIViewController {
         
         configureNavbar()
         view.addSubview(profileView)
-//        view.addSubview(inviteContainer)
+        view.addSubview(inviteContainer)
         view.addSubview(selectFilterView)
-//        view.addSubview(separatorView!)
+        view.addSubview(separatorView!)
         view.addSubview(tableView)
 //        tableView.addSubview(addFriendButton)
         tableView.tableHeaderView = searchController.searchBar
         
-//        inviteContainerHeightConstraint = inviteContainer.heightAnchor.constraint(equalToConstant: 70)
+        inviteContainerHeightConstraint = inviteContainer.heightAnchor.constraint(equalToConstant: 70)
         
         tableViewTopConstraint1 = tableView.topAnchor.constraint(equalTo: selectFilterView.bottomAnchor, constant: 0.5)
         tableViewTopConstraint1?.isActive = true
         
         tableViewTopConstraint2 = tableView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor)
         
-        selectFilterViewTopConstraint1 = selectFilterView.topAnchor.constraint(equalTo: profileView.bottomAnchor, constant: 32)
+        selectFilterViewTopConstraint1 = selectFilterView.topAnchor.constraint(equalTo: inviteContainer.bottomAnchor, constant: 32)
         
-//        selectFilterViewTopConstraint2 = selectFilterView.topAnchor.constraint(equalTo: profileView.bottomAnchor, constant: 30)
+        selectFilterViewTopConstraint2 = selectFilterView.topAnchor.constraint(equalTo: profileView.bottomAnchor, constant: 30)
         
-//        tbHeaderViewTopConstraint1 = tableView.tableHeaderView!.topAnchor.constraint(equalTo: tableView.topAnchor)
+        tbHeaderViewTopConstraint1 = tableView.tableHeaderView!.topAnchor.constraint(equalTo: tableView.topAnchor)
                 
         NSLayoutConstraint.activate([
             
@@ -244,21 +244,21 @@ class FriendViewController: UIViewController {
             profileView.leadingAnchor.constraint(equalToSystemSpacingAfter: view.leadingAnchor, multiplier: 3),
             view.trailingAnchor.constraint(equalToSystemSpacingAfter: profileView.trailingAnchor, multiplier: 3),
             
-//            inviteContainer.leadingAnchor.constraint(equalToSystemSpacingAfter: view.leadingAnchor, multiplier: 3),
-//            inviteContainer.topAnchor.constraint(equalTo: profileView.bottomAnchor, constant: 35),
-//            view.trailingAnchor.constraint(equalToSystemSpacingAfter: inviteContainer.trailingAnchor, multiplier: 3),
+            inviteContainer.leadingAnchor.constraint(equalToSystemSpacingAfter: view.leadingAnchor, multiplier: 3),
+            inviteContainer.topAnchor.constraint(equalTo: profileView.bottomAnchor, constant: 35),
+            view.trailingAnchor.constraint(equalToSystemSpacingAfter: inviteContainer.trailingAnchor, multiplier: 3),
             
-//            inviteContainerHeightConstraint!,
+            inviteContainerHeightConstraint!,
             
-            selectFilterView.topAnchor.constraint(equalTo: profileView.bottomAnchor, constant: 32),
+            selectFilterViewTopConstraint1!,
             selectFilterView.leadingAnchor.constraint(equalToSystemSpacingAfter: view.leadingAnchor, multiplier: 3),
             view.trailingAnchor.constraint(equalToSystemSpacingAfter: selectFilterView.trailingAnchor, multiplier: 3),
             
-//            separatorView!.topAnchor.constraint(equalTo: selectFilterView.bottomAnchor),
-//            separatorView!.leadingAnchor.constraint(equalTo: view.leadingAnchor),
-//            separatorView!.trailingAnchor.constraint(equalTo: view.trailingAnchor),
-//            separatorView!.heightAnchor.constraint(equalToConstant: 0.5),
-//            separatorView!.widthAnchor.constraint(equalToConstant: view.bounds.width),
+            separatorView!.topAnchor.constraint(equalTo: selectFilterView.bottomAnchor),
+            separatorView!.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+            separatorView!.trailingAnchor.constraint(equalTo: view.trailingAnchor),
+            separatorView!.heightAnchor.constraint(equalToConstant: 0.5),
+            separatorView!.widthAnchor.constraint(equalToConstant: view.bounds.width),
             
             tableViewTopConstraint1!,
             tableView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
